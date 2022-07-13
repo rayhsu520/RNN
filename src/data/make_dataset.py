@@ -1,3 +1,5 @@
+import numpy as np
+
 def load_data(datasetname, column, seq_len, normalise_window):
     # A support function to help prepare datasets for an RNN/LSTM/GRU
     data = datasetname.loc[:,column]
