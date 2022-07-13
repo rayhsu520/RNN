@@ -1,3 +1,5 @@
+import numpy as np
+
 def predict_sequence_full(model, data, window_size):
     #Shift the window by 1 new prediction each time, re-run predictions on new window
     curr_frame = data[0]
