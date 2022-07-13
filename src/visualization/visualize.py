@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def plot_results(predicted_data, true_data): 
     fig = plt.figure(facecolor='white') 
     ax = fig.add_subplot(111) 
