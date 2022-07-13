@@ -4,6 +4,8 @@ USER root
 
 
 RUN apt-get update
+RUN apt-get install git
+
 
 WORKDIR /project
 COPY requirements.txt requirements.txt 
