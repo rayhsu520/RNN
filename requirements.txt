@@ -4,5 +4,6 @@ pandas
 seaborn
 statsmodels
 torch
+Tensor flow
 scikit-learn
 nltk
